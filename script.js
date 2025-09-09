@@ -18,8 +18,8 @@ const getSum = () => {
     td1.textContent="Total";
 
     const td2=document.createElement("td");
-    // td2.textContent=sum;
-    td2.textContent=333;
+    td2.textContent=sum;
+    // td2.textContent=333;
 	td2.id="ans";
 
     newRow.append(td1,td2);
